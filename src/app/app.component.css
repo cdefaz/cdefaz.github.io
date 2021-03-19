@@ -147,7 +147,7 @@
     grid-template-columns: 1fr 1fr 0.25fr;
     grid-template-rows: 1fr;
     box-shadow: 0 0 2rem rgba(224, 87, 63, 0.815);
-    height: 4rem;
+    height: 6rem;
     margin: 0;
     align-items: center;
     transition: background-color 500ms linear;
@@ -214,11 +214,12 @@
     max-width: 5rem;
   }
   
-  .date__text {
-    text-transform: uppercase;
+  .bachelor_header {
+    
     letter-spacing: 0.1rem;
     display: inline;
     margin: 0.5rem 0;
+    font-size: 3.5rem;
   }
   
   /*SVGs*/
