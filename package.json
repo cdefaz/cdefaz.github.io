@@ -1,6 +1,7 @@
 {
   "name": "bachelor-pool",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "author": "Claudia De Fazio<cdefazio@waterloo.ca>",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

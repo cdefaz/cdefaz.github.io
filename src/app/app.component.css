@@ -275,6 +275,25 @@
     background: linear-gradient(to bottom, white, darkred);
     transition: opacity 300ms linear;
   }
+
+  .sidebar a{
+    display: block;
+    color: darkred;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /*side bar active page color*/
+  .sidebar a.active{
+    background-color:rgb(255, 185, 185);
+    color:darkred;
+  }
+  
+  /*side bar hover colors*/
+  .sidebar a:hover:not(.active){
+    background-color: red;
+    color: darkred;
+  }
   
   /*
   ================-
